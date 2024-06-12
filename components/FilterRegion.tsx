@@ -15,7 +15,7 @@ const FilterRegion = ({ setRegionFilter }: FilterRegionProps) => {
         className={styles["filter-region-select"]}
         onChange={handleRegionChange}
       >
-        <option value="" disabled selected>
+        <option value=""selected>
           Filter By Region
         </option>
         <option value="Africa">Africa</option>

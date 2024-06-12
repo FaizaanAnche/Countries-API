@@ -1,5 +1,12 @@
+.flag-container{
+    width: 80%;
+    box-shadow: var(--element-shadow);
+    object-fit: contain;
+}
+
 .flag{
-    max-width: 480px;
+    height: 100%;
+    max-width: 100%;
 }
 
 .country-container{
@@ -62,23 +69,31 @@
 @media screen and (min-width:1200px){
     .country-container{
         flex-direction: row;
-        gap: 2rem;
+        gap: 6rem;
         padding: 0 2rem;
     }
 
-    .flag{
+    .flag-container{
         width: 50%;
-        height: 100%;
         object-fit: cover;
     }
 
     .country-details-container{
-        width: 50%;
         margin-top: 0;
     }
 
     .country-details{
         display: flex;
         justify-content: space-between;
+    }
+}
+
+@media (min-width:600px) and (max-width:1199px){
+    .flag-container{
+        width: 50%;
+    }
+
+    .country-details-container{
+        width: 50%;
     }
 }

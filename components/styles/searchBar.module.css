@@ -24,3 +24,8 @@
     left: 2rem;
 }
 
+@media screen and (min-width: 600px){
+    .search-bar{
+        width: 300px;
+    }
+}

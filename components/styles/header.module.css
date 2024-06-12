@@ -1,6 +1,6 @@
 .site-header{
     display: flex;
-    padding: 2rem 0.5rem;
+    padding: 2rem 1rem;
     justify-content: space-between;
     background-color: var(--header-background-color);
     color: var(--header-text-color);
@@ -15,7 +15,7 @@
     cursor: pointer;
   }
 
-  @media screen and (min-width:1200px) {
+  @media screen and (min-width:600px) {
     .site-header{
       padding: 2rem 4rem;
     }

@@ -75,6 +75,7 @@ export default async function Country({ params }: countryProps) {
       <>
         <BackButton />
         <div className={styles["country-container"]}>
+          <div className={styles["flag-container"]}>
           <img
             src={country.flags.svg}
             alt={
@@ -84,6 +85,7 @@ export default async function Country({ params }: countryProps) {
             }
             className={styles["flag"]}
           />
+          </div>
           <div className={styles["country-details-container"]}>
             <h2>
               {country.name.common}

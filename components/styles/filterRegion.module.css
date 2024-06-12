@@ -2,17 +2,32 @@
     padding-bottom: 2rem;
     padding-right: 1rem;
     padding-left: 1rem;
+    max-width: 200px;
 }
 
 .filter-region-select {
-    padding: 1rem;
-    appearance: none;
-    box-shadow: var(--element-shadow);
-    background-color: var(--element-background-color);
-    color: var(--element-text-color);
-    border: none;
-    border-radius: 4px;
-  }
+  width: 100%;
+  padding: 1rem;
+  background-image:
+    linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%);
+  background-position:
+    calc(100% - 20px) 50%,
+    calc(100% - 15px) 50%,
+    calc(100% - 2.5em) 50%;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+  appearance: none;
+  box-shadow: var(--element-shadow);
+  background-color: var(--element-background-color);
+  color: var(--element-text-color);
+  border: none;
+  border-radius: 4px;
+}
+
   
   @media screen and (min-width:1200px) {
     .filter-region{
@@ -20,5 +35,6 @@
       justify-content: center;
       align-items: center;
       padding: 2rem 1rem;
+      width: 20%;
     }
   }
