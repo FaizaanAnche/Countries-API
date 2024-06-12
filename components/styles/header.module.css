@@ -14,3 +14,9 @@
     align-items: center;
     cursor: pointer;
   }
+
+  @media screen and (min-width:1200px) {
+    .site-header{
+      padding: 2rem 4rem;
+    }
+  }

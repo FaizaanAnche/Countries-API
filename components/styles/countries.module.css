@@ -1,0 +1,12 @@
+.countries{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.countries-container{
+    width: 90%;
+    margin: 0 auto;
+}
