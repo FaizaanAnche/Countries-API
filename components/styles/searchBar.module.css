@@ -1,0 +1,26 @@
+.search-bar{
+    display: flex;
+    padding: 2rem 1rem;
+    position: relative;
+}
+
+.search-bar-input{
+    width: 100%;
+    padding: 1rem 3rem;
+    background-color: var(--element-background-color);
+    color: var(--element-text-color);
+    border: none;
+    box-shadow: var(--element-shadow);
+    border-radius: 4px;
+}
+
+.search-bar-input::placeholder{
+    color: var(--placeholder-text-color);
+}
+
+.search-icon{
+    position: absolute;
+    top:2.9rem;
+    left: 2rem;
+}
+

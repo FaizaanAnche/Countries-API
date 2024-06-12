@@ -1,0 +1,16 @@
+.site-header{
+    display: flex;
+    padding: 2rem 0.5rem;
+    justify-content: space-between;
+    background-color: var(--header-background-color);
+    color: var(--header-text-color);
+    box-shadow: var(--header-shadow);
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+
+  .theme-switcher{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    cursor: pointer;
+  }
